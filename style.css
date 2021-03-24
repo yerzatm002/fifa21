@@ -1,0 +1,219 @@
+
+canvas {
+	width:450px;
+	height:450px;
+    border: 5px solid black;
+    margin:auto
+}
+
+* {
+    border-radius: 0;
+}
+
+/*  Background image  */
+
+.bg_img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  Image tag  */
+
+.tag_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*  Header  */
+.header_menu {
+    transition: .2s;
+    background-color: transparent;
+    padding-top: 30px;
+}
+
+.header_menu_2 {
+    transition: .2s;
+    background-color: black;
+    padding-top: 30px;
+}
+
+.header_fix {
+    transition: .2s;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding-top: 0;
+}
+
+.inner_header {
+    background-color: rgba(0, 0, 0, 0.4);;
+}
+
+/*  Login  */
+
+.login {
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    border: 1px solid white;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.login:hover {
+    background-color: transparent;
+    color: white;
+    transition: .2s;
+}
+
+.register {
+    background-color: transparent;
+    color: white;
+    padding: 5px 15px;
+    border: 1px solid white;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.register:hover {
+    background-color: white;
+    color: black;
+    transition: .2s;
+}
+
+
+/*  My classes  */
+
+.my_btn {
+    padding: 10px 15px;
+    border: 1px solid white;
+    text-decoration: none;
+    transition: .2s;
+}
+.my_btn:hover {
+    background-color: transparent;
+    color: white;
+    transition: .2s;
+}
+
+
+/*  Welcome  */
+.banner {
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://codigoesports.com/wp-content/uploads/2020/06/PS-FIFA21.png)
+}
+
+.inner_banner {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title_banner {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banner_button {
+    color: black;
+    background-color: white;
+    padding: 10px 15px;
+    border: 1px solid white;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.banner_button:hover {
+    background-color: transparent;
+    color: white;
+    transition: .2s;
+}
+
+/*  Banner content  */
+.banner-content {
+    color: white;
+}
+
+
+
+/*  Main Content  */
+
+.animal-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    outline-color: #0b5ed7;
+}
+
+
+/*  animal post  */
+.animal {
+    height: 50px;
+    padding: 5px;
+}
+
+.animal div {
+    height: 100%;
+    width: 100%;
+    background-color: #0b5ed7;
+}
+
+
+/*  Типо обрезок для фона  */
+
+.d8 {
+    width: 0;
+    height: 0;
+    border-top: 400px solid #f8f9fa;
+    border-left: 100px solid transparent;
+}
+
+
+/*  See all  */
+
+.my_btn_pet {
+    color: white;
+    background-color: green;
+    padding: 10px 15px;
+    border: 1px solid white;
+    text-decoration: none;
+    transition: .2s;
+    margin: 20px;
+}
+
+.my_btn_pet:hover {
+    background-color: transparent;
+    color: green;
+    transition: .2s;
+}
+
+.backpack{
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('images/toty.png')
+}
+
+.bnr{
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.prg{
+  margin-right: 300px;
+}
